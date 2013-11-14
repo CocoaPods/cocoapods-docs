@@ -9,4 +9,4 @@ cocoadocs.org.
 
 ## Usage
 
-    $ pod doc POD_NAME
+    $ pod spec doc POD_NAME
