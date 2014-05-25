@@ -8,7 +8,7 @@ module Pod
           Opens the web documentation of the Pod with the given NAME.
         DESC
 
-        self.arguments = 'NAME'
+        self.arguments = [['NAME', :required]]
 
         def initialize(argv)
           @name = argv.shift_argument
