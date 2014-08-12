@@ -8,7 +8,9 @@ module Pod
           Opens the web documentation of the Pod with the given NAME.
         DESC
 
-        self.arguments = [['NAME', :required]]
+        self.arguments = [
+          CLAide::Argument.new('NAME', true)
+        ]
 
         def initialize(argv)
           @name = argv.shift_argument
