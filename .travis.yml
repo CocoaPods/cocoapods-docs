@@ -22,7 +22,4 @@ before_install:
 install:
   - sudo bundle install --without=documentation
 
-  # CocoaPods/CocoaPods specific
-  - ./bin/pod repo update --silent
-
 script: bundle exec rake spec
