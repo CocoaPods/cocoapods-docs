@@ -2,14 +2,14 @@ module Pod
   class Command
     class Spec
       class Doc < Spec
-        self.summary = "Opens the web documentation of a Pod."
+        self.summary = 'Opens the web documentation of a Pod.'
 
         self.description = <<-DESC
           Opens the web documentation of the Pod with the given NAME.
         DESC
 
         self.arguments = [
-          CLAide::Argument.new('NAME', true)
+          CLAide::Argument.new('NAME', true),
         ]
 
         def initialize(argv)
@@ -19,7 +19,7 @@ module Pod
 
         def validate!
           super
-          help! "A Pod name is required." unless @name
+          help! 'A Pod name is required.' unless @name
         end
 
         def run
