@@ -4,7 +4,7 @@
 language: objective-c
 addons:
  code_climate:
-   repo_token: 501acd9bc61d80ef6119b69ab42c52fa66cefddcc6724a1e93a79c3d3e32bf55  
+   repo_token: 568c9fe1160fda8ad6e7fdedd70851c5741045de9101633e60dc76d61b7e3d1d   
 
 env:
   - RVM_RUBY_VERSION=system
