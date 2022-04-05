@@ -71,7 +71,7 @@ GEM
     awesome_print (1.9.2)
     bacon (1.2.0)
     cocoapods-deintegrate (1.0.5)
-    cocoapods-downloader (1.5.1)
+    cocoapods-downloader (1.6.3)
     cocoapods-plugins (1.0.0)
       nap
     cocoapods-search (1.0.1)
